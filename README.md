@@ -1,3 +1,3 @@
-"# metacoders-city-maker 
+metacoders-city-maker 
 
-use `raco new-city CITY-NAME` to make a folder structure" 
+use `raco new-city CITY-NAME` to make a folder structure
