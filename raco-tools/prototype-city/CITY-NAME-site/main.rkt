@@ -1,6 +1,9 @@
 #lang at-exp racket
 
-(provide pages index)
+(provide pages index
+         weekly-class-k-2nd-winter
+         summer-camp-clicker-k-2nd-7/15
+         )
 
 (require CITY-NAME-lib
          metacoders-dot-org-lib)
