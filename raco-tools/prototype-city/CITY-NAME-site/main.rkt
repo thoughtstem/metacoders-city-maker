@@ -11,7 +11,7 @@
   (course
       ;#:topic         "Awesome Animals!"
       ;#:sku           "sku_GKwkIwx91IPMXI"
-      ;#:image-url     "https://s3-us-west-1.amazonaws.com/ts-email-assets-and-stuff/k-2.gif"
+      ;#:video-path    k2-animal-mp4-path
       ;#:description   "MetaCoders’ novel approach to computer science education is backed by the latest scientific research that shows learning how to code is more like learning a foreign language than learning math. Therefore, we leverage the entire field of language acquisition so that our students are ready for a future where they’ll need to speak the languages of computers fluently. We also keep the emphasis on FUN, so throughout the course students will earn badges and prizes as they expand their knowledge of computer science. During this session of Coding Club, students will be designing video games featuring animals - they'll learn how to customize the colors of & heal their animal game characters, and also avoid enemies!"
       ;#:grade-range   "K - 2nd"
       ;#:location      "University of Dallas"
@@ -27,7 +27,7 @@
 (define/provide-camp summer-camp-clicker-k-2nd-7/15
   (camp ;#:topic         "Cartoon Clicker Games!"
         ;#:sku           "sku_GG43XFZEQxqgmG"
-        ;#:image-url     "https://s3-us-west-1.amazonaws.com/ts-email-assets-and-stuff/DSC_0603_370_200.jpg"
+        ;#:video-path    k2-clicker-cartoon-mp4-path
         ;#:description   (~a "In our Summer program, students at Gallaudet will learn how to code their own whack-a-mole style games that utilize the mouse. "
         ;                    "Students will learn how to customize their game with near endless possible combinations: Are you a UFO collecting cows? "
         ;                    "Or a kid eating up their favorite foods and avoiding their least favorites? Or a ninja nabbing fruit and not the bombs? "
