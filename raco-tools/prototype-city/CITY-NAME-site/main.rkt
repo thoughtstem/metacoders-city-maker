@@ -7,11 +7,13 @@
 
 ; If you are creating a brand new course,
 ; run (generate-random-sku) to generate a unique sku id
-(define/provide-course weekly-class-k-2nd-winter
+
+; ========== EXAMPLE COURSE ===========
+#;(define/provide-course weekly-class-k-2nd-winter
   (course
       ;#:topic         "Awesome Animals!"
       ;#:sku           "sku_GKwkIwx91IPMXI"
-      ;#:video-path    k2-animal-mp4-path
+      ;#:video-path    healer-animal-mp4-path
       ;#:description   "MetaCoders’ novel approach to computer science education is backed by the latest scientific research that shows learning how to code is more like learning a foreign language than learning math. Therefore, we leverage the entire field of language acquisition so that our students are ready for a future where they’ll need to speak the languages of computers fluently. We also keep the emphasis on FUN, so throughout the course students will earn badges and prizes as they expand their knowledge of computer science. During this session of Coding Club, students will be designing video games featuring animals - they'll learn how to customize the colors of & heal their animal game characters, and also avoid enemies!"
       ;#:grade-range   "K - 2nd"
       ;#:location      "University of Dallas"
@@ -24,17 +26,16 @@
       ;#:status        'open
    ))
 
-(define/provide-camp summer-camp-clicker-k-2nd-7/15
+; ========== EXAMPLE CAMP ===========
+#;(define clicker-cartoon-description
+    (~a "In this camp, we'll explore coding & creativity through a newly developed programming language that combines the ease of visual programming with the benefits of typed programming. Students will enjoy learning how to code video games that they can share with friends & family after camp. Students will be able to choose from a unique array of cartoon characters, items, and scenes so that they can exercise their creativity while designing their games!"))
+
+#;(define/provide-course summer-camp-clicker-k-2nd-7/15
   (camp ;#:topic         "Cartoon Clicker Games!"
         ;#:sku           "sku_GG43XFZEQxqgmG"
-        ;#:video-path    k2-clicker-cartoon-mp4-path
-        ;#:description   (~a "In our Summer program, students at Gallaudet will learn how to code their own whack-a-mole style games that utilize the mouse. "
-        ;                    "Students will learn how to customize their game with near endless possible combinations: Are you a UFO collecting cows? "
-        ;                    "Or a kid eating up their favorite foods and avoiding their least favorites? Or a ninja nabbing fruit and not the bombs? "
-        ;                    "Their games will feature a point system, and students will code in-game items such that they gain or lose points when the "
-        ;                    "player clicks on them. This course will not only strengthen students’ coding skills, but also their keyboard and mouse skills. "
-        ;                    "Throughout the course, students will earn physical badges that demonstrate their mastery and inspire them to keep coding!")
-        ;#:grade-range     "Entering K - 2nd"
+        ;#:video-path    cartoon-clicker-mp4-path
+        ;#:description   clicker-cartoon-description
+        ;#:grade-range   "Entering K - 2nd"
         ;#:location      "Gallaudet University"
         ;#:address       "800 Florida Ave NE, Washington, DC 20002"
         ;#:address-link  "https://goo.gl/maps/Yypsi9LRZB7sFTjc9"
@@ -46,6 +47,7 @@
         ;#:meeting-dates (list "7/15/2020" "7/16/2020" "7/17/2020" "7/18/2020" "7/19/2020")
         ;#:status         'open
         ))
+
 
 (define (index)
   (page index.html
