@@ -30,8 +30,8 @@ before_install:
 
 install:
  - cd $TRAVIS_BUILD_DIR
- - raco pkg install --auto metacoders-dot-org-CITY-NAME-lib/
- - raco pkg install --auto metacoders-dot-org-CITY-NAME-site/
+ - raco pkg install --auto CITY-NAME-lib/
+ - raco pkg install --auto CITY-NAME-site/
  
 before_script:
 
@@ -39,7 +39,7 @@ before_script:
 # `raco pkg install --deps search-auto` to install any required
 # packages without it getting stuck on a confirmation prompt.
 script:
- - raco setup --no-docs --fail-fast metacoders-dot-org-CITY-NAME-lib metacoders-dot-org-CITY-NAME-site
+ - raco setup --no-docs --fail-fast CITY-NAME-lib CITY-NAME-site
 
 after_success:
  - echo "DONE!"
