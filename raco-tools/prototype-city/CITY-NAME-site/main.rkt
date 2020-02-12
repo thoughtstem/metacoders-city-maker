@@ -45,7 +45,7 @@
         ;#:lunch-time    "12:00pm - 1:00pm"
         ;#:pickup-time   "1:00pm - 1:15pm"
         ;#:meeting-dates (list "7/15/2020" "7/16/2020" "7/17/2020" "7/18/2020" "7/19/2020")
-        ;#:status         'open
+        ;#:status        'open
         ))
 
 
